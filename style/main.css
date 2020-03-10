@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .body {
   padding: 70px;
 }
@@ -11,11 +15,65 @@
   color: white;
 }
 
+.pb {
+  padding-bottom: 40px;
+}
+
+.font-size {
+  font-size: 17px;
+}
+
+.starbox {
+  position: relative;
+  margin: 30px auto;
+  max-width: 300px;
+}
+
+.starbox:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.staricon {
+  display: inline-block;
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  height: 60px;
+  background-color: #1bbc9b;
+  z-index: 100;
+  float:left;
+  width: 34%;
+}
+
+.staricon.staricon-black {
+  color: #333333;
+  background-color: white;
+}
+
+
+.starline {
+  height: 3px;
+  background-color: white;
+  z-index: 1;
+  transform: translateY(25px);
+  width: 33%;
+  display:inline-block;
+  float:left;
+}
+
+.starline.starline-black {
+  background-color: #333333;
+}
+
 /* NAVBAR */
 .navbar-default {
   background-color: #2d3e50;
   margin-bottom: 0;
   border-radius: 0;
+  border: none;
+  padding: 10px 0;
 }
 
 .navbar-header .navbar-brand {
@@ -28,10 +86,9 @@
 }
 
 /* HEADER */
-
-
 header .col-md-12 img {
   max-width: 200px;
+  padding-top: 30px;
 }
 
 header .col-md-12 h1 {
@@ -46,7 +103,6 @@ header li:nth-child(even)::before {
 header li:nth-child(even)::after {
    content: '-';
    padding-left: 10px;
-
 }
 
 /* JUMBOTRON */
@@ -73,6 +129,68 @@ header li:nth-child(even)::after {
 }
 
 #about .col-lg-12 button {
-  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 30px;
   border: 1px solid white;
+}
+
+/* CONTACT SECTION */
+
+#contact h2 {
+  padding: 30px 0;
+}
+
+#contact input {
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #9999a6;
+  padding-bottom: 10px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+#contact textarea {
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #9999a6;
+  padding-bottom: 40px;
+  font-size: 15px;
+  border-radius: 0;
+}
+
+#contact .btn {
+  margin-top: 10px;
+}
+
+/* FOOTER 1 */
+.first-footer {
+  position: relative;
+  background: #3b6691;
+}
+
+.first-footer p {
+  color: #fff;
+}
+
+.first-footer h3 {
+  color: #fff;
+}
+
+.first-footer a i {
+  margin: 0 10px;
+  font-size: 25px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  color: #fff;
+}
+/* FOOTER 2 */
+.second-footer {
+  height: 90px;
+  background: #33475b;
+  line-height: 100px;
+}
+
+.second-footer p {
+  color: #fff;
 }
