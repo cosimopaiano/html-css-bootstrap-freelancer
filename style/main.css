@@ -1,18 +1,18 @@
-.body{
+.body {
   padding: 70px;
 }
 
-/* utilities */
-.bg-green{
+/* UTILITIES */
+.bg-green {
   background-color: #1bbc9b;
 }
 
-.color-white{
+.color-white {
   color: white;
 }
 
-/* Navbar */
-.navbar-default{
+/* NAVBAR */
+.navbar-default {
   background-color: #2d3e50;
   margin-bottom: 0;
   border-radius: 0;
@@ -27,14 +27,14 @@
   text-transform: uppercase;
 }
 
-/* Header */
+/* HEADER */
 
 
-header .col-md-12 img{
+header .col-md-12 img {
   max-width: 200px;
 }
 
-header .col-md-12 h1{
+header .col-md-12 h1 {
   font-size: 50px;
 }
 
@@ -49,13 +49,12 @@ header li:nth-child(even)::after {
 
 }
 
-/* jumbotron */
-.jumbotron{
+/* JUMBOTRON */
+.jumbotron {
   background-color: white;
 }
 
-/* Portfolio */
-#portfolio .container{
+#portfolio .container {
   color: #2c3e50;
 }
 
@@ -64,16 +63,16 @@ header li:nth-child(even)::after {
   border-radius: 15px;
 }
 
-/* About */
-#about h2{
+/* ABOUT */
+#about h2 {
   padding: 50px 0px;
 }
 
-#about p{
+#about p {
   font-size: 20px;
 }
 
-#about .col-lg-12 button{
+#about .col-lg-12 button {
   margin-bottom: 50px;
   border: 1px solid white;
 }
